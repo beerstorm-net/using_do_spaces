@@ -2,7 +2,9 @@
     package="net.beerstorm.do_spaces_flutter">
    <application
         android:label="do_spaces_flutter"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:requestLegacyExternalStorage="true"
+   >
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
